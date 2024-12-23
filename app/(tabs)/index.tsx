@@ -6,11 +6,10 @@ import { styleObj } from '../App.style.js';
 export default function HomeScreen() {
   return (
     <SafeAreaProvider>
-      <SafeAreaView>
-      <Text style={styleObj.title}>Shutup Krishaanvvvv !</Text>
-      <View style={styleObj.square}>
-         <Text style={styleObj.innerTxt}>Super!</Text>
-      </View>
+      <SafeAreaView style={{ flex: 1, flexDirection: 'row', justifyContent: 'center' }}>
+        <View style={ styleObj.box1 }></View>
+        <View style={ styleObj.box2 }></View>
+        <View style={ styleObj.box3 }></View>
       </SafeAreaView>
     </SafeAreaProvider>
   ) 
