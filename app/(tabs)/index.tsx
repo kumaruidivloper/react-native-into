@@ -7,7 +7,7 @@ export default function HomeScreen() {
   return (
     <SafeAreaProvider>
       <SafeAreaView>
-      <Text style={styleObj.title}>Shutup Krishaanvvv !</Text>
+      <Text style={styleObj.title}>Shutup Krishaanvvvv !</Text>
       <View style={styleObj.square}>
          <Text style={styleObj.innerTxt}>Super!</Text>
       </View>
